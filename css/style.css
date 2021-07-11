@@ -1,0 +1,32 @@
+body {
+	margin-top: 2px;
+}
+
+.bg-black {
+	background-color: #000;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+#main-header {
+	overflow: hidden;
+}
+
+#main-header .port-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+@media (max-width: 990px) {
+	#main-header .display-5 {
+		max-width: min-content;
+	}
+}
+@media (max-width: 750px) {
+	#main-header .display-5 {
+		min-width: max-content;
+	}
+}
